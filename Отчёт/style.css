@@ -1,0 +1,143 @@
+/*Файл стиля для доставки пиццы*/
+/*Верхняя часть или хедер*/
+.topimg{
+    background-image:url(img/top.jpg);
+    height: 400px;
+    width: 95%;
+    background-size: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.ttop{
+    text-align: center;
+    margin-top: 0.001%;
+    font-size: 35pt;
+    color: red;
+}
+.logo{
+    background-image: url(img/logo.png);
+    height: 150px;
+    width: 185px;
+    background-size: 100%;
+    background-position: 20% 20%;
+    margin-left: 2%;
+    
+    
+}
+/*Меню навигации*/
+.navigat{
+    width: 95%;
+    border-top: 3px solid red;
+    text-transform: uppercase;
+    margin-left: auto;
+    margin-right: auto;   
+    height: 50Px; 
+    border-bottom: 3px solid orange;
+}
+.navigat li{
+    display: inline-block;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+li a{
+    color: rgb(160, 51, 0);
+    text-decoration: none;
+}
+li a:hover{
+    color: blue;
+    text-decoration: underline;
+}
+
+/*Главное тело*/
+main{
+    width: 95%;
+    height: auto;
+    border-left: 1px solid gray;
+    border-right: 1px solid gray;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+.MB{
+    padding-bottom: 50px;
+    text-align: center;
+    
+}
+.item{
+    display: inline-block;
+    margin-left: 3%;
+    margin-right: 3%;
+    width: 25%;
+    height: 40%;
+    vertical-align: top;
+    background-color: #bccad9;
+    border: 1px solid #000;
+    text-align: center;
+    padding-top: 10px;
+}
+.img3{
+    width: 80%;
+    height: 80%;
+    background-size: 100%;
+}
+main h4 a{
+    color: rgb(146, 0, 146);
+    text-decoration: none;
+    text-transform: uppercase;
+}
+main h4 a:hover{
+    color: rgb(62, 184, 255);
+    text-decoration: underline;
+    text-transform: lowercase;
+}
+
+/*Подвал*/
+footer{
+    width: 100%;
+    border-top: 3px solid gray;
+    background: rgb(108, 108, 179);
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2%;
+
+}
+.left{
+    width: 29%;
+    height: auto;
+    text-align: left;
+    display: inline-block;
+    margin-left: 4%;
+}
+.center{
+    display: inline-block;
+    width: 33%;
+    text-align: center;
+}
+.right{
+    width: 26%;
+    height: auto;
+    text-align: right;
+    display: inline-block;
+    margin-right: 6%;
+    
+}
+.number{
+    font-size: 16pt;
+    
+}
+.form{
+    width: 100%;
+    height: 150px;
+    text-align: center;
+}
+.center a{
+    color: rgb(185, 0, 0);
+    text-decoration: underline;
+    font-size: 14pt;
+}
+.center a:hover{
+    color: rgb(16, 0, 245);
+    text-decoration: none;
+}

@@ -1,0 +1,12 @@
+STYLE typetextcss 
+BODY {FONT-FAMILY: Times New Roman,Times,serif;}
+H1 {COLOR: #FF6600; text-align: center; FONT-STYLE: normal; FONT-VARIANT: normal; FONT-WEIGHT: bold; FONT-FAMILY: Times New Roman,Times,serif;}
+H2 {COLOR: #FF6600; text-align: center; FONT-STYLE: normal; FONT-VARIANT: normal; FONT-WEIGHT: bold; FONT-FAMILY: Times New Roman,Times,serif;}
+P {FONT-FAMILY: Times New Roman,Times,serif; COLOR: #993300; text-align: justify;}
+
+A:link {COLOR: #FF6040;}
+A:visited {COLOR: #CC0000;}
+A:active {COLOR: #FF0033;}
+BODY {background: #FFFFCC URL('fon.png');}
+
+#cntr {text-align: center;}

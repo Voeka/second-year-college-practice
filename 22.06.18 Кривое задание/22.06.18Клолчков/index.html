@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="ru">
+    <head>
+        <meta charset="utf-8">
+        <title>Макет гостиницы</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body class="container">    <!-- Главное тело--> 
+        <header>
+            <div class="logo"><img src="img/logo.jpg" width="197" height="118"></div>       <!--+-->
+            <div class="right-header"> <!--То, что должно быть inline-block-->
+                <div class="banner"><img src="img/banner.png" width="250" height="118"></div>       <!--!!!-->
+                <div class="navigation">    <!--!!!-->
+                        <ul class="menu-list">  <!--+-->
+                            <li class="nav-list"><a href='#'>Главная</a></li>           <!--+-->
+                            <li class="nav-list"><a href='#'>гостиницы</a></li>         <!--+-->
+                            <li class="nav-list"><a href='#'>Конференции</a></li>       <!--+-->
+                            <li class="nav-list"><a href='#'>Компания</a></li>          <!--+-->
+                            <li class="nav-list"><a href='#'>Спец. предложения</a></li> <!--+-->
+                            <li class="nav-list"><a href='#'>Контакты</a></li>          <!--+-->
+                        </ul>
+                </div>
+            </div>
+        </header>
+        <main class="clearfix">         <!--!!!-->
+            <div class="content-left"> <!--+-->
+                <div class="hotels">    <!--+-->
+                    <div class="span-hotels">Наши гостиницы</div>  <!--+-->
+                    <ul class="hotels-list">    <!--+-->
+                        <li><a href='#'>Славянка (Москва) </a></li>
+                        <li><a href='#'>Багратион (Москва) </a></li>
+                        <li><a href='#'>Лнфортово (Москва) </a></li>
+                        <li><a href='#'>Сокол (Москва) </a></li>
+                        <li><a href='#'>Пахра (Подольск) </a></li>
+                        <li><a href='#'>Софрино (Мос. область) </a></li>
+                        <li><a href='#'>Орбита (Санкт-Петербург) </a></li>
+                        <li><a href='#'>Особняк министа (Санкт-Петербург) </a></li>
+                        <li><a href='#'>Золотая бухта (Калининград) </a></li>
+                        <li><a href='#'>Золотая бухта (Светлогорск) </a></li>
+                        <li><a href='#'>Маяк (Калининград) </a></li>
+                        <li><a href='#'>Золотой якорь (Балтийск) </a></li>
+                        <li><a href='#'>Юг (Краснодар) </a></li>
+                        <li><a href='#'>Знаменск (Знаменск) </a></li>
+                        <li><a href='#'>Звезда (Ростов-на-Дону) </a></li>
+                        <li><a href='#'>Гвардейская (Казань) </a></li>
+                        <li><a href='#'>Волжанка (Саратов) </a></li>
+                        <li><a href='#'>Волна (Самара) </a></li>
+                        <li><a href='#'>Урал (Екатеринбург) </a></li>
+                        <li><a href='#'>Чита (Чита) </a></li>
+                        <li><a href='#'>Чайка (Хабаровск) </a></li>
+                        <li><a href='#'>Жемчужина (Владивосток) </a></li>
+                    </ul>
+                </div>
+                      <div class="buttons-left">        <!--!!!-->
+                        <button class="button1">Нам Важно Ваше Мнение</button>      <!--+-->
+                        <button class="button1">Подписка на новости</button>        <!--+-->
+                        <button class="button2">Номера для лиц<br> с ограниченными возможностями</button> <!--+-->
+                     </div>
+            </div>
+            <div class="content-center"> <!--+-->
+                <div class="title-content">ОАО "Гостиничный комплекс"</div>     <!--!!!-->
+                <div class="gallery">Здесь будет галерея</div>                  <!--!!!-->
+                <div class="sotial-content">Здесь будут кнопки на соц сети</div>    <!--!!!-->
+            </div>
+            <div class="content-right"> <!--+-->
+                <div class="forms">     <!--+-->
+                    <form class="seach-hotel">      <!--+-->
+                        <legend>Бронирование</legend>   <!--+-->
+                        <label for="select-hotel">Выбор гостиницы</label>
+                        <select name="all-hotels" id="select-hotel">   
+                            <option value="Славянка (Москва)">Славянка (Москва)</option>
+                            <option value="Багратион (Москва)">Багратион (Москва)</option>\
+                            <option value="Лефортово (Москва)">Лефортово (Москва)</option>
+                        </select>
+                        <label for="date1">Дата заезда</label>
+                        <input type="date" name="select-date" id="date1">
+                        <label class="night-class" for="select-night">Ночей</label>     <!--+-->
+                        <select name="all-hotels" id="select-night">
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                        </select>
+                        <label for="select-quests" class="quest-class">Гостей</label>       <!--+-->
+                        <select name="all-hotels" id="select-quests">
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                        </select>
+                        <input type="submit" value="Найти номер">
+
+
+                    </form>
+                </div>
+                <div class="buttons-right">             <!--!!!-->
+                    <button class="button1">Забронировать услугу</button>   <!--+-->
+                    <button class="button1">Визовая поддержка</button>  <!--+-->
+                </div>
+                <div class="news">              <!--!!!-->
+                    <span>Новости</span>
+                    <p>06.05.2016</p>
+                    <p><a href="#">С Днем Победы</a></p>
+                </div>
+            </div>
+        </main>
+        <footer>
+            <div class="contacts">  <!--+-->
+                <P>
+                    ОАО "Гостиничный комплекс "Славянка"<br>
+                    Адресс:<br>
+                    129110, Москва, ул. Суворовская пл., д. 2, стр. 3<br>
+                    Телефон управляющей компании:<br>
+                    8(495) 681-44-44<br></P>
+            </div>
+            <div clss="nav-footer">     <!--+-->
+                <div class="nav-left">  <!--+-->
+                    <ul class="menu-list">          <!--+-->
+                        <li class="nav-list"><a href='#'>Поставщикам</a></li>       <!--+-->
+                        <li class="nav-list"><a href='#'>Вакансии</a></li>          <!--+-->
+                        <li class="nav-list"><a href='#'>Контакты</a></li>          <!--+-->
+                        <li class="nav-list"><a href='#'>Партнерам</a></li>         <!--+-->
+                    </ul>
+                </div>
+                <div class="nav-right">     <!--+-->
+                    <a href="#">Создание сайти</a>
+                    <p> - Clickart</p>
+                </div>
+            </div>
+            <div class="statistics">Кнопки статистики</div>         <!--!!!-->
+        </footer>
+    </body> <!--Конец тела-->
+</html>
